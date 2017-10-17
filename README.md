@@ -11,8 +11,9 @@ a zigzag array is an array in which the two neighbors of each element is strictl
 
 # Code2.py
 
-This code implements a function to calculate the smaller perios of a periodicall sequence.
-Where max_period is the maximun period you want to look for, and test_numb is how many numbers of the sequence you want to test, the bigger the better but you have to make max_period+test_numb < len(sequence)
+This code implements a function to calculate the smaller period of a periodicall sequence.
+
+Where **max_period** is the maximun period you want to look for, and **test_numb** is how many numbers of the sequence you want to test, the bigger the better but you have to make max_period+test_numb < len(sequence)
 
 # Code3.py
 
