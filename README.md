@@ -3,7 +3,7 @@ just some code I made playing around in codefights
 
 # Code1.py
 
-This code implements a function that receives an array and returns the maximum sub continuous array of this array that is a zigzag array. 
+This code implements a function that receives an array and returns the maximum length of a sub continuous array of this array that is a zigzag array. 
 
 ## what is a zigzag array
 
