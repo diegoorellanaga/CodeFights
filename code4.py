@@ -83,6 +83,47 @@ def rotateImage(a):
     return a   
 
 
+# 4 test
+
+def slice_2d(grid,x_in,x_end,y_in,y_end):
+    return [grid[i][x_in:x_end] for i in range(y_in,y_end)]  
+
+def check_rows(grid):
+    good=True
+    for i in range(9):
+        rows=list((''.join(grid[i])).replace(".",""))
+        if len(set(rows))!=len(rows):
+            good=False
+            break
+    return good
+
+def check_columns(grid):
+    good=True
+    for i in range(9):
+        column=list((''.join([row[i] for row in grid]  )).replace(".",""))
+        if len(set(column))!=len(column):
+            good=False
+            break
+    return good     
+
+def check_sections(grid):
+    good = True
+    for i,j in [(0,3),(3,6),(6,9)]:
+        for n,m in [(0,3),(3,6),(6,9)]:
+            sliced2d=slice_2d(grid,i,j,n,m)
+            l=sum(sliced2d, [])
+            section=list((''.join(l)).replace(".",""))
+            if len(set(section))!=len(section):
+                good=False
+                break
+    return good            
+            
+def sudoku2(grid):
+    if check_rows(grid) and check_columns(grid) and check_sections(grid):
+        return True
+    else:
+        return False
+
 
 
 

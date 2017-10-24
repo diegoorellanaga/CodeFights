@@ -5,7 +5,7 @@ Created on Wed Oct 18 11:41:27 2017
 @author: diego
 """
 
-
+# 1 test  
 import string
     
 def firstDuplicate(a):
@@ -22,7 +22,7 @@ def firstDuplicate(a):
         return -1        
 
 
-    
+# 2 test    
 import math    
     
 def firstNotRepeatingCharacter(s):
@@ -56,7 +56,7 @@ def firstNotRepeatingCharacter(s):
                 pass
         return first_one
 
-
+# 3 test
 def rot4(a,i,j):
     n=len(a) 
     b=a[i][j]

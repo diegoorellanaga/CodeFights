@@ -29,7 +29,7 @@ wordBoggle is the main function and it has 2 parameters; board and words
 
 ## Code4.py
 
-This script contains the 3 first tests for the arrays section
+This script contains the 4 first tests for the arrays section
 
 
 
