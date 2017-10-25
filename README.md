@@ -31,6 +31,9 @@ wordBoggle is the main function and it has 2 parameters; board and words
 
 This script contains the 4 first tests for the arrays section
 
+## Code5.py
+
+This script contain the first test for the Common Techniques: Basic section
 
 
 
